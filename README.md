@@ -10,6 +10,7 @@ to point you in the proper direction so that you can easily find the
 necessary files to make your file work.
 
 VIMRC INFORMATION
+
   GitHub does not allow me to upload hidden files, therefore you will need
   to rename the vimrc to .vimrc in order for it to work. In addition, place
   the file in your home directory (which can be navigated to by entering 
@@ -23,6 +24,7 @@ VIMRC INFORMATION
   complain about it.
   
 TMUX INFORMATION
+
   As with most of my vimrc configuration, I discovered all of these configuration
   settings by looking at others' configuration files. Any extra files needed to 
   configure tmux will not be inlcuded in my GitHub unless the material was created 
