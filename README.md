@@ -22,3 +22,22 @@ VIMRC INFORMATION
   directory. This will allow you to use the color scheme and vim won't 
   complain about it.
   
+TMUX INFORMATION
+  As with most of my vimrc configuration, I discovered all of these configuration
+  settings by looking at others' configuration files. Any extra files needed to 
+  configure tmux will not be inlcuded in my GitHub unless the material was created 
+  by me. Feel free to use the configuration file. Just remember to rename the file
+  to .tmux.conf otherwise it will not work.
+  
+  Also, if tmux does not load you conf file immediately (place it in your home 
+  directory, then restart or reload the file) each time you start tmux, you may
+  need to edit a configuration file related to your default shell. Bash users might
+  need to edit their .bash_profiles. My default shell was zsh so I needed to 
+  modify a few files:
+    ~/.zshrc
+      Add following line:
+      plugins=(tmux *whatever plugins you want*)
+    ~./.oh-my-zsh/plugins/tmux/tmux.extra.conf
+      Modify source line to:
+        source ~/.tmux.conf
+      
