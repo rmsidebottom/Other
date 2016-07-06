@@ -36,10 +36,18 @@ TMUX INFORMATION
   need to edit a configuration file related to your default shell. Bash users might
   need to edit their .bash_profiles. My default shell was zsh so I needed to 
   modify a few files:
-    ~/.zshrc
+  
+    `~/.zshrc`
+    
       Add following line:
-      plugins=(tmux *whatever plugins you want*)
-    ~./.oh-my-zsh/plugins/tmux/tmux.extra.conf
-      Modify source line to:
-        source ~/.tmux.conf
+      `plugins=(tmux *whatever plugins you want*)`
       
+    `~./.oh-my-zsh/plugins/tmux/tmux.extra.conf`
+      Modify source line to:
+        `source ~/.tmux.conf`
+      
+ZSHRC INFORMATION
+
+  Feel free to use my zsrhc configuration. Do know that it is mostly the default 
+  configuration as I have not looked into modifying this file. Some modifications
+  may require edits in some other files as well.
