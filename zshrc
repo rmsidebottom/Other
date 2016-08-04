@@ -32,6 +32,8 @@ source $ZSH/oh-my-zsh.sh
 #### ALIASES
 alias l="ls -lhpAT"
 alias p="pwd"
+alias s="sudo"
+#alias vim="vim -S ~/.vimrc"
 
 ### MISC PLUGIN STUFF
 #requires zsh install highlighting to be installed

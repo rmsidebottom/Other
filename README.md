@@ -23,6 +23,11 @@ luna color scheme, you will need to download those files into the .vim/colors
 directory. This will allow you to use the color scheme and vim won't
 complain about it.
 
+The vim package YouCompleteMe needs to be installed. Include the plugin in your
+vimrc then load it to download the plugin. View the requirements online
+and then proceed to run the install Python script in the Plugin's directory.
+Once that has been completed, it will be ready to use.
+
 ### TMUX INFORMATION
 
 As with most of my vimrc configuration, I discovered all of these configuration
@@ -47,3 +52,13 @@ In `~./.oh-my-zsh/plugins/tmux/tmux.extra.conf` modify the source line to resemb
 Feel free to use my zsrhc configuration. Do know that it is mostly the default
 configuration as I have not looked into modifying this file. Some modifications
 may require edits in some other files as well.
+
+I tend to get lazy at time which is why I continue to add new aliases to this
+config file. If you don't want a certain alias, remove or even change it to
+something else. The vim alias was made because vim for some reason, would not
+start correctly. If you have trouble getting vim to start properly, uncomment
+that alias and it should force vim to work.
+
+If you make changes to the zshrc file, run the command `source ~/.zshrc` and 
+that will tell zsh that you updated the configuration file and will implement
+your changes without requiring you to restart your terminal.
