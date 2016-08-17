@@ -30,7 +30,12 @@ plugins=(git tmux sudo python sublime zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 #### ALIASES
-alias l="ls -lhpAT"
+alias l="ls -lhptA"
 alias p="pwd"
 alias s="sudo"
 alias install="sudo apt-get install"
+# git shortcuts 
+alias gaa="git add ."
+alias gs="git status"
+alias gp="git push"
+
