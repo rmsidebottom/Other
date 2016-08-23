@@ -62,3 +62,11 @@ that alias and it should force vim to work.
 If you make changes to the zshrc file, run the command `source ~/.zshrc` and 
 that will tell zsh that you updated the configuration file and will implement
 your changes without requiring you to restart your terminal.
+
+### BASHRC INFORMATION
+
+This file is similar to my zshrc. Feel free to use it, modify it, improve it 
+and so on. This file only requires git to be installed on your system since I
+have aliases for git in there. If you don't want that, just delete the lines.
+If you modify the file on your own system, you can run `source ~/.bashrc` to 
+run bash with the updated file.
