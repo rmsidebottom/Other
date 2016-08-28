@@ -90,8 +90,9 @@ alias s='sudo'
 alias p='pwd'
 alias gp='git push'
 alias gs='git status'
-alias ga='git add .'
+alias ga='git add . && git status'
 alias install='sudo apt-get -y --force-yes install'
+alias update='sudo apt-get update -y && sudo apt-get upgrade -y'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
