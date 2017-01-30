@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/bs/.oh-my-zsh
+export ZSH=/Users/daboss/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -30,12 +30,18 @@ plugins=(git tmux sudo python sublime zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 #### ALIASES
-alias l="ls -lhptA"
-alias p="pwd"
-alias s="sudo"
-alias install="sudo apt-get install"
-# git shortcuts 
-alias gaa="git add ."
-alias gs="git status"
-alias gp="git push"
+alias l='ls -lhpTA'
+alias s='sudo'
+alias p='pwd'
+alias gp='git push'
+alias gs='git status'
+alias ga='git add . && git status'
+alias gc='git commit'
+alias gl='git pull'
+alias install='brew install'
+alias update='brew update'
+alias info='brew info'
+#alias update='sudo apt-get update -y && sudo apt-get upgrade -y'
+#alias upgrade='sudo apt-get update -y && sudo apt-get upgrade -y'
 
+eval "$(thefuck --alias)"

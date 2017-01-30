@@ -49,8 +49,8 @@ syntax enable		" enables syntax processing
 "colorscheme luna-term 	" changes color scheme
 "set background=light
 set background=dark
-colorscheme solarized
 let g:solarized_termcolors=256
+colorscheme solarized
 
 " turn backup off, since most stuff is in SVN, git etc. anyway...
 set nobackup
