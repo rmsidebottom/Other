@@ -9,24 +9,20 @@ those extra files in my GitHub unless there are mine. I will do my best
 to point you in the proper direction so that you can easily find the
 necessary files to make your file work.
 
-### VIMRC INFORMATION
+### BASHRC INFORMATION
 
-GitHub does not allow me to upload hidden files, therefore you will need
-to rename the vimrc to .vimrc in order for it to work. In addition, place
-the file in your home directory (which can be navigated to by entering
-"cd"). Once both of those steps are complete (and you included any extra
-files needed in their proper directory) restart vim (close and reopen a
-file) and you will see the changes.
+This file is similar to my zshrc. Feel free to use it, modify it, improve it 
+and so on. This file only requires git to be installed on your system since I
+have aliases for git in there. If you don't want that, just delete the lines.
+If you modify the file on your own system, you can run `source ~/.bashrc` to 
+run bash with the updated file.
 
-Currently, my vimrc does require an extra set of files. Since I use the
-luna color scheme, you will need to download those files into the .vim/colors
-directory. This will allow you to use the color scheme and vim won't
-complain about it.
-
-The vim package YouCompleteMe needs to be installed. Include the plugin in your
-vimrc then load it to download the plugin. View the requirements online
-and then proceed to run the install Python script in the Plugin's directory.
-Once that has been completed, it will be ready to use.
+### MAC Setup
+Shell script designed to install some useful tools and applications onto a MAC. 
+Can be modified to fit your needs. Currently installs Xcode, homebrew, git, 
+htop, netcat, nmap, vim, python, python3, thefuck, cheat, Atom (text editor), 
+Sublime Text (editor), Brackets (text editor), Alfred, iTerm, ZSH shell, and 
+oh-my-zsh.
 
 ### TMUX INFORMATION
 
@@ -47,6 +43,25 @@ In `~/.zshrc` add the following line: `plugins=(tmux *whatever plugins you want*
 In `~./.oh-my-zsh/plugins/tmux/tmux.extra.conf` modify the source line to resemble:
         `source ~/.tmux.conf`
 
+### VIMRC INFORMATION
+
+GitHub does not allow me to upload hidden files, therefore you will need
+to rename the vimrc to .vimrc in order for it to work. In addition, place
+the file in your home directory (which can be navigated to by entering
+"cd"). Once both of those steps are complete (and you included any extra
+files needed in their proper directory) restart vim (close and reopen a
+file) and you will see the changes.
+
+Currently, my vimrc does require an extra set of files. Since I use the
+luna color scheme, you will need to download those files into the .vim/colors
+directory. This will allow you to use the color scheme and vim won't
+complain about it.
+
+The vim package YouCompleteMe needs to be installed. Include the plugin in your
+vimrc then load it to download the plugin. View the requirements online
+and then proceed to run the install Python script in the Plugin's directory.
+Once that has been completed, it will be ready to use.
+
 ### ZSHRC INFORMATION
 
 Feel free to use my zsrhc configuration. Do know that it is mostly the default
@@ -62,11 +77,3 @@ that alias and it should force vim to work.
 If you make changes to the zshrc file, run the command `source ~/.zshrc` and 
 that will tell zsh that you updated the configuration file and will implement
 your changes without requiring you to restart your terminal.
-
-### BASHRC INFORMATION
-
-This file is similar to my zshrc. Feel free to use it, modify it, improve it 
-and so on. This file only requires git to be installed on your system since I
-have aliases for git in there. If you don't want that, just delete the lines.
-If you modify the file on your own system, you can run `source ~/.bashrc` to 
-run bash with the updated file.
