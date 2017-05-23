@@ -26,6 +26,7 @@ sudo pip install cheat
 #install atom text editor
 wget https://atom.io/download/mac
 unzip atom-mac.zip
+mv Atom.app /Applications/
 
 #install sublime editor
 wget https://download.sublimetext.com/Sublime%20Text%20Build%203126.dmg
