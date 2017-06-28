@@ -20,6 +20,7 @@ brew install python -y
 brew install python3 -y
 brew install thefuck -y
 brew install wget -y
+brew install tmux -y
 
 #install cheat utility
 sudo pip install cheat
