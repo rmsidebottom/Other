@@ -19,6 +19,7 @@ brew install vim -y
 brew install python -y
 brew install python3 -y
 brew install thefuck -y
+brew install wget -y
 
 #install cheat utility
 sudo pip install cheat
