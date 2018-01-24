@@ -30,7 +30,7 @@ plugins=(git tmux sudo python sublime zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 #### ALIASES
-alias l='ls -lhpTA'
+alias l='ls -lhptTA'
 alias s='sudo'
 alias p='pwd'
 alias gp='git push'
@@ -38,10 +38,14 @@ alias gs='git status'
 alias ga='git add . && git status'
 alias gc='git commit'
 alias gl='git pull'
+alias clone='git clone'
 alias install='brew install'
 alias update='brew update'
 alias info='brew info'
+alias exiftool='/usr/local/bin/exiftool'
+alias gb='go build'
 #alias update='sudo apt-get update -y && sudo apt-get upgrade -y'
 #alias upgrade='sudo apt-get update -y && sudo apt-get upgrade -y'
 
 eval "$(thefuck --alias)"
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
